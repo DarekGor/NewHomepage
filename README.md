@@ -1,5 +1,5 @@
 # Welcome to my first webside
 
-![photo.jpg](https://postimg.cc/gXfkGyq8)
+![Darek G.](https://github.com/DarekGor/NewHomepage/blob/main/image/photo.jpg?raw=true)
 
-[Click link](https://darekgor.github.io/NewHomepage/)
+https://darekgor.github.io/NewHomepage/
