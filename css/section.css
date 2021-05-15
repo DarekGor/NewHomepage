@@ -1,0 +1,27 @@
+.section {
+    text-align: left;
+    background-color: rgba(214, 209, 209, 0.192);
+    max-width: 1000px;
+    margin: 5% auto;
+    display: block;
+    border-radius: 15px;
+    padding: 1%;
+    box-shadow: 2px 0px 2px 3px #c8c3c1;
+    font-size: 20px;
+}
+
+.section__header {
+    text-align: center;
+    color: teal;
+    font-size: 26px;
+}
+
+.section__headerSpecial {
+    text-align: center;
+    color: rgb(149, 40, 0);
+    font-size: 26px;
+}
+
+.section__code {
+    color: orangered;
+}

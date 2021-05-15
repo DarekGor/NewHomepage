@@ -1,0 +1,9 @@
+.footer {
+    text-align: center;
+    margin: auto;
+}
+
+.footer__link {
+    text-decoration: none;
+    color: teal;
+}

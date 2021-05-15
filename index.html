@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dariusz Górecki</title>
+    <script defer src="js/script.js"></script>
+    <link rel="icon" href="image/Projekt bez tytułu (1).png">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/body.css" rel="stylesheet">
+    <link href="css/navigation.css" rel="stylesheet">
+    <link href="css/container.css" rel="stylesheet">
+    <link href="css/section.css" rel="stylesheet">
+    <link href="css/table.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" />
+</head>
+
+<body class="body">
+    <nav class="navigation">
+        <ul class="navigation__list">
+            <li class="navigation__item"><a class="navigation__element" href="#o-mnie">O mnie</a></li>
+            <li class="navigation__item"><a class="navigation__element" href="#zainteresowania">Zainteresowania</a></li>
+            <li class="navigation__item"><a class="navigation__element" href="#plan-treningowy">Plan Treningowy</a></li>
+            <li class="navigation__item"><a class="navigation__element" href="#kontakt">Kontakt</a></li>
+        </ul>
+    </nav>
+    <header>
+        <h1 class="body__header">Dariusz Górecki</h1>
+    </header>
+    <div class="container">
+        <button class="container__buttonHeader js-changeHeaderButton">Zmień nagłówek</button>
+        <button class="container__buttonImage js-hideImageButton">Ukryj zdjęcie</button>
+        <button class="container__buttonDark js-changeButtonDark">Ciemny Motyw</button>
+    </div>
+    <section>
+        <img class="image" src='https://i.postimg.cc/TyrLFtBm/photo.jpg' alt="photo DariuszG.">
+    </section>
+    <section id="o-mnie" class="section">
+        <h2 class="section__header">Kilka słów o mnie</h2>
+        <div class="container">
+            <button class="container__buttonChange">Zmień kolor nagłówka</button>
+        </div>
+        <p><strong>Mam na imię Darek.</strong><br> Mam 24 lata i mieszkam w małej miejscowości obok Wrocławia. Aktualnie
+            jestem w
+            trakcie studiowania
+            na kierunku zarządzanie. Od 5 lat jestem funkcjonariuszem zakładu karnego. Lubię swoją pracę, jednak ze
+            względu na specyfikę mojego zawodu i poziomą ścieżką kariery nie widzę siebie dalej w tej pracy.
+            Tydzień temu trafiłem na kurs od
+            <i class="section__code">Youcode</i> i postanowiłem spróbować swoich sił w świecie IT.
+        </p>
+
+    </section>
+    <section id="zainteresowania" class="section">
+        <h2 class="section__header">Zaineteresowania</h2>
+        <p>
+            Sport towarzyszył mi od dziecka. Pierwsze kroki stawiałem w szkole tanecznej w wieku 7 lat. Taniec
+            towarzyszył mi przez kolejne 9 lat i nauczył mnie <strong>cierpliwości, pokory i świadomego dążenia do
+                realizacji celów.</strong> <br> Od szkoły średniej staram się regularnie biegać i jeździć na rowerze.
+            Sport pozawala mi wyciszyć się i odreagować po całym dniu spędzonym w pracy.
+        </p>
+    </section>
+    <section id="plan-treningowy" class="section">
+        <div class="tableEfect">
+            <table class="table">
+                <caption>
+                    <h3 class="table__header">Tabela Treningowa</h3>
+                </caption>
+                <tr>
+                    <th class="table__cell table__cell--header" coper="col"></th>
+                    <th class="table__cell table__cell--header" cope="col">Bieganie</th>
+                    <th class="table__cell table__cell--header" cope="col">Jazda na rowerze</th>
+                    <th class="table__cell table__cell--header" cope="col">pływanie</th>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Poniedziałek</th>
+                    <td class="table__cell">5km</td>
+                    <td class="table__cell">10km</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Wtorek</th>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                    <td class="table__cell">45min.</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Środa</th>
+                    <td class="table__cell"></td>
+                    <td class="table__cell">20km</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Czwartek</th>
+                    <td class="table__cell">3km</td>
+                    <td class="table__cell">30km</td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Piątek</th>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Sobota</th>
+                    <td class="table__cell"></td>
+                    <td class="table__cell">80km-100km</td>
+                    <td class="table__cell">30min.</td>
+                </tr>
+                <tr>
+                    <th class="table__cell table__cell--header" cope="row">Niedziela</th>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                    <td class="table__cell"></td>
+                </tr>
+            </table>
+        </div>
+
+    </section>
+    <footer id="kontakt" class="footer">
+        <p>Kontakt:<br>
+            e-mail:<a class="footer__link" href="mailto:darek@gmail.com"> darek@gmail.com</a><br>
+            tel:<a class="footer__link" href="+48458602242"> 458-602-241</a></p>
+
+    </footer>
+</body>
+
+</html>

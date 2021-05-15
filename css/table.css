@@ -1,0 +1,27 @@
+.tableEfect {
+    overflow: auto;
+}
+
+.table {
+    border-collapse: collapse;
+    margin: auto;
+}
+
+.table__header {
+    text-align: center;
+    color: teal;
+    font-size: 26px;
+}
+
+.table__cell {
+    border: 1px solid black;
+    padding: 22px;
+    text-align: center;
+    background-color: rgb(255, 254, 254);
+    font-weight: bold;
+}
+
+.table__cell--header {
+    background-color: teal;
+    color: white;
+}

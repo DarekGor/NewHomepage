@@ -1,0 +1,19 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.image {
+    margin: 0 auto;
+    display: block;
+    border-radius: 20px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.image--hidden {
+    display: none;
+}

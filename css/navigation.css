@@ -1,0 +1,16 @@
+.navigation__list {
+    text-align: center;
+    box-shadow: 2px 0px 2px 3px #c8c3c1;
+}
+
+.navigation__item {
+    display: inline-block;
+    list-style-type: none;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+.navigation__element {
+    text-decoration: none;
+    color: rgb(149, 40, 0);
+}
