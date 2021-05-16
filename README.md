@@ -1,8 +1,14 @@
-# Welcome to my first webside
+# Darek Górecki - homepage
 
 ![Darek G.](https://github.com/DarekGor/NewHomepage/blob/main/image/photo.jpg?raw=true)
 
 
-## Link to the webside 
+## Demo
 
-https://darekgor.github.io/NewHomepage/
+![Homepage] (https://darekgor.github.io/NewHomepage/)s
+
+### Technology
+- HTML
+- CSS
+- BEM
+- Java Script
