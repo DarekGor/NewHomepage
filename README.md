@@ -5,7 +5,7 @@
 
 ## Demo
 
-![Homepage] (https://darekgor.github.io/NewHomepage/)s
+[Homepage](https://darekgor.github.io/NewHomepage/)s
 
 ### Technology
 - HTML
