@@ -5,10 +5,10 @@
 
 ## Demo
 
-[Homepage](https://darekgor.github.io/NewHomepage/)s
+[Homepage](https://darekgor.github.io/NewHomepage/)
 
 ### Technology
 - HTML
 - CSS
 - BEM
-- Java Script
+- Java Script ES6+
